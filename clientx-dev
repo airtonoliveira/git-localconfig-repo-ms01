@@ -1,12 +1,12 @@
 spring:
   rabbitmq:
     custom:
-      minha-routingkey-teste1:
+      meu-alias-teste1:
         queueRoutingKey: minha.routingkey.teste1
         exchange: meu.exchange1
         queue: minha.queue.teste1
         queueDlq: minha.queue.teste1.dead
-      minha-routingkey-teste2:
+      meu-alias-teste2:
         queueRoutingKey: minha.routingkey.teste2
         exchange: meu.exchange2
         queue: minha.queue.teste2
